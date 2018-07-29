@@ -40,7 +40,7 @@ for(fileList.index in seq(1, length(fileList))){
   if(target_class == "N"){
     xxFilename <- paste0(res_dir, "/facetsG5XX_", normal_ref, "_", fileList.index, ".rds")
     xx <- readRDS(xxFilename)  
-    saveSnps <- xx$jointseq
+    saveSnps <- xx$jointseg
   } else if (target_class %in% c("T", "F", "M")){
     saveSnps <- xxNew[[paste0("n", normal_ref, "_", fileList.index)]]    
   } else {
