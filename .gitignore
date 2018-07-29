@@ -1,3 +1,6 @@
 facetsRCancer/**
 facetsRNormal/**
 output/**
+resources/**
+.RData
+.Rhistory
